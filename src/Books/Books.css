@@ -1,0 +1,142 @@
+.Library {
+    margin-top: 80px;
+    width: 75vw;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.Sort {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.SortYear, .SortPrice {
+    display: flex;
+    flex-direction: row;
+}
+
+.SortButton {
+    border: 1px solid orange;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 0 5px;
+}
+
+.SortButton:hover {
+    background: orange;
+}
+
+.SearchBar {
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-between;
+}
+
+.SearchInput {
+    border: 1px solid orange;
+    color: white;
+    background: transparent;
+    outline: none;
+    font-size: 1.5vw;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-family: 'SAOUI';
+    width: 49vw;
+}
+
+.SearchInput select {
+    background: transparent;
+    color: white;
+    font-family: 'SAOUI';
+    font-size: 1.5vw;
+    border-radius: 10px;
+    border: 1px solid orange;
+    outline: none;
+}
+
+.SearchBarButton {
+    color: white!important;
+    background: #585c64;
+    width: fit-content;
+    font-size: 1.5vw;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    padding: 5px 30px;
+    border: 5px solid #585c64;
+}
+
+.SearchBarButton:hover {
+    background: #686c74;
+    border: 5px solid #686c74;;
+}
+
+.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded {
+    color: white;
+    backdrop-filter: blur(20px);
+    background: rgba(0,0,0,0.1);
+    font-family: 'SAOUI';
+    border: 1px solid orange;
+}
+
+li.MuiButtonBase-root.MuiListItem-root.MuiMenuItem-root.makeStyles-selectMenu-2.MuiMenuItem-gutters.MuiListItem-gutters.MuiListItem-button {
+    font-family: 'SAOUI';
+    font-size: 1.5vw;
+}
+li.MuiButtonBase-root.MuiListItem-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiListItem-gutters.MuiListItem-button{
+    font-family: 'SAOUI';
+    font-size: 1.5vw;
+}
+
+div#demo-customized-select {
+    width: 12vw;
+    color: white;
+}
+
+label#demo-customized-select-label {
+    color: white;
+    font-family: 'SAOUI';
+    font-size: 1.5vw;
+    margin-left: 14px;
+}
+
+.MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover {
+    background-color: rgba(0, 0, 0, 0.3)!important;
+}
+
+.MuiInputLabel-shrink {
+    transform: translate(0, -1.5vw) scale(0.75)!important;
+}
+
+label + .WithStyles\(ForwardRef\(InputBase\)\)-root-3 {
+    margin-top: 0!important;
+}
+
+.Library .MuiInputLabel-formControl {
+    transform: translate(0, 0) scale(1);
+}
+
+div#demo-customized-select {
+    border: 1px solid orange;
+}
+
+label + .WithStyles\(ForwardRef\(InputBase\)\)-root-7 {
+    margin-top: 0!important;
+}
+
+.NotFound {
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 50px;
+}
